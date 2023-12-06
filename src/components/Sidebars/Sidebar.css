@@ -1,0 +1,19 @@
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+  }
+  
+  .menu-label {
+    cursor: pointer;
+  }
+  
+  .submenu {
+    list-style: none;
+    padding-left: 10px;
+  }

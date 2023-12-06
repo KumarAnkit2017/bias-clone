@@ -1,0 +1,12 @@
+.footer
+{
+    width: 100%;
+    background: rgba(191, 191, 191, 0.39);
+    text-align: center;
+}
+
+
+.logo img{
+    width: 50%;
+    object-fit: contain;
+}

@@ -1,0 +1,81 @@
+.login-page
+{
+    
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../assets/powerss.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.imgbox{
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform
+{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imags{
+    width: 100%;
+    height: 80%;
+}
+
+.text-box{
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;font-size: 20px;
+    background-color: #8d939940;;
+    height: 34px;
+    margin: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.login-form{
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #080e13c2;
+    width: 25%;
+    height: 70%;
+    box-shadow: 5px 5px rgb(96 90 90 / 56%);;
+}
+
+
+.btns
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    background: #a9a9cb7d;
+    color: white;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+a{
+    font-size: 1rem;
+}
+
+h6{
+    text-decoration: underline;
+}
+
