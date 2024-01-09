@@ -1,14 +1,16 @@
 import React from 'react'
-import Helmet from '../../components/Helmet/Helmet'
-import { Container,Row,Col } from 'react-bootstrap'
 import Sidebars from '../../components/Sidebars/Sidebars'
 import './Home.css'
+import MenuRouters from '../../router/MenuRouters'
+import Routers from '../../router/Routers'
+
+
 
 const Home = () => {
   return <div className="home">
   <Sidebars />
   <div className="content-box">
-    Content
+    <Routers></Routers>
   </div>
 </div>
 }

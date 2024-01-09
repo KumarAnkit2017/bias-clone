@@ -1,4 +1,9 @@
 .home{
     display: flex;
-    height: 90vh;
+    height: 100vh;
+}
+
+.content-box{
+ width: 100%;
+ background-color: rgb(196, 196, 202);
 }

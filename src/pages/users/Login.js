@@ -1,5 +1,4 @@
 import React from 'react';
-import powers from '../../assets/powers.jpg';
 import  './login.css'
 
 const Login = () => {

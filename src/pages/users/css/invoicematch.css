@@ -1,0 +1,92 @@
+.invoice-container
+{
+    display:flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+.portfolio-name
+{
+    border-radius: 4px;
+    width: 100%;
+}
+
+.fromdate-field
+{
+    border-radius: 4px;
+}
+
+.todate-field
+{
+    border-radius: 4px;
+}
+
+.view-btn{
+    color: white;
+    background: blue;
+    border: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 32px;
+}
+
+.table-match
+{
+  border: 10px;
+  border-color: black;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center; 
+}
+
+thead tr
+{
+    background-color: brown;
+    color: white;
+}
+
+tbody tr
+{
+    background-color: rgb(219, 147, 147);
+    color: rgb(7, 4, 4);
+}
+
+.table-are
+{
+  
+  height: 500px;
+  overflow-y: auto;
+}
+
+.table-Define{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+input[id="miss-match"]:checked {
+    background-color: #fff700;  /* Red color */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff700; /* Red color */
+    margin-right: 5px;
+}
+
+input[id="matchs"]:checked {
+    background-color: #c5f8fd; /* Red color */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #c5f8fd; /* Red color */
+    margin-right: 5px;
+}
+
